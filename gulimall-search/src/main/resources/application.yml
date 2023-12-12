@@ -1,0 +1,13 @@
+server:
+  port: 12000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 115.159.77.243:7848 #nacos注册中心地址
+
+  redis:
+    host: 115.159.77.243
+    port: 7379
+    password: 111225
