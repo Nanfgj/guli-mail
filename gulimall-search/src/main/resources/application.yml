@@ -11,3 +11,5 @@ spring:
     host: 115.159.77.243
     port: 7379
     password: 111225
+  application:
+    name: gulimall-search
