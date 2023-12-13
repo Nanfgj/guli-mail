@@ -103,7 +103,6 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
 
         return skuInfoEntities;
 
-        return null;
     }
 
 }
