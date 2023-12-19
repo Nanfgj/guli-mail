@@ -10,6 +10,9 @@ spring:
         server-addr: 115.159.77.243:7848
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  # 关闭thymeleaf缓存
+  thymeleaf:
+    cache: false
 
 
 mybatis-plus:
