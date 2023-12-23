@@ -25,12 +25,12 @@ public class IndexController {
     @Resource
     private CategoryService categoryService;
 
-    @GetMapping(value = {"/","index.html"})
+    @GetMapping(value = {"/", "index.html"})
     private String indexPage(Model model) {
 
         //1、查出所有的一级分类
         List<CategoryEntity> categoryEntities = categoryService.getLevel1Categorys();
-        model.addAttribute("categories",categoryEntities);
+        model.addAttribute("categories", categoryEntities);
 
         return "index";
     }
