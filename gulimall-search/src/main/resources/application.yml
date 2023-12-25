@@ -13,3 +13,6 @@ spring:
     password: 111225
   application:
     name: gulimall-search
+
+  thymeleaf:
+    cache: false
